@@ -1,0 +1,28 @@
+digraph Dendrogramme {
+    "umontpellier.erl.calculs.dump.Dump1" -> "umontpellier.erl.calculs.parser.Parser" [label="0,002463"];
+    "umontpellier.erl.calculs.dump.Dump1" -> "umontpellier.erl.calculs.dump.Dump2" [label="0,027094"];
+    "umontpellier.erl.calculs.parser.Parser" -> "Unknown" [label="0,041872"];
+    "umontpellier.erl.calculs.parser.Parser" -> "umontpellier.erl.calculs.exercice2.part1.ClassExtractor" [label="0,002463"];
+    "umontpellier.erl.calculs.parser.Parser" -> "umontpellier.erl.calculs.exercice1.CouplingMetric" [label="0,002463"];
+    "umontpellier.erl.calculs.exercice2.part2.ModuleMain" -> "Unknown" [label="0,017241"];
+    "umontpellier.erl.calculs.exercice2.part2.ModuleMain" -> "umontpellier.erl.calculs.exercice2.part1.ClassExtractor" [label="0,002463"];
+    "umontpellier.erl.calculs.exercice2.part1.Cluster" -> "Unknown" [label="0,096059"];
+    "umontpellier.erl.calculs.exercice2.part1.Cluster" -> "umontpellier.erl.calculs.exercice2.part1.ClusteringAlgorithm" [label="0,032020"];
+    "Unknown" -> "umontpellier.erl.calculs.exercice2.part2.Module" [label="0,073892"];
+    "Unknown" -> "umontpellier.erl.calculs.dump.Dump2" [label="0,009852"];
+    "Unknown" -> "umontpellier.erl.calculs.exercice1.CouplingMetricMain" [label="0,110837"];
+    "Unknown" -> "umontpellier.erl.calculs.exercice1.GraphGenerator" [label="0,012315"];
+    "Unknown" -> "umontpellier.erl.calculs.exercice1.CouplingMetric" [label="0,029557"];
+    "Unknown" -> "umontpellier.erl.calculs.exercice2.part1.ClusteringAlgorithm" [label="0,036946"];
+    "umontpellier.erl.calculs.exercice2.part1.ClusteringMain" -> "Unknown" [label="0,027094"];
+    "umontpellier.erl.calculs.exercice2.part1.ClusteringMain" -> "umontpellier.erl.calculs.exercice2.part1.ClassExtractor" [label="0,002463"];
+    "umontpellier.erl.calculs.exercice2.part1.ClusteringMain" -> "umontpellier.erl.calculs.exercice2.part1.ClusteringAlgorithm" [label="0,002463"];
+    "umontpellier.erl.calculs.exercice1.CouplingMetricMain" -> "umontpellier.erl.calculs.exercice1.GraphGenerator" [label="0,004926"];
+    "umontpellier.erl.calculs.exercice1.CouplingMetricMain" -> "umontpellier.erl.calculs.exercice1.CouplingMetric" [label="0,017241"];
+    "umontpellier.erl.calculs.exercice2.part2.ModuleAlgorithm" -> "umontpellier.erl.calculs.exercice2.part2.ModuleMain" [label="0,002463"];
+    "umontpellier.erl.calculs.exercice2.part2.ModuleAlgorithm" -> "Unknown" [label="0,017241"];
+    "umontpellier.erl.calculs.exercice2.part2.ModuleAlgorithm" -> "umontpellier.erl.calculs.exercice2.part2.Module" [label="0,004926"];
+    "umontpellier.erl.calculs.Visitor.TypeDeclarationVisitor" -> "Unknown" [label="0,002463"];
+    "umontpellier.erl.calculs.Visitor.TypeDeclarationVisitor" -> "umontpellier.erl.calculs.exercice2.part1.ClassExtractor" [label="0,002463"];
+    "umontpellier.erl.calculs.exercice1.CouplingMetric" -> "umontpellier.erl.calculs.exercice2.part1.ClusteringAlgorithm" [label="0,004926"];
+}
